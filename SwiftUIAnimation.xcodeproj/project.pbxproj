@@ -11,6 +11,8 @@
 		64D94E5C2C959E920030CDEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D94E5B2C959E920030CDEA /* ContentView.swift */; };
 		64D94E5E2C959E940030CDEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D94E5D2C959E940030CDEA /* Assets.xcassets */; };
 		64D94E612C959E940030CDEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D94E602C959E940030CDEA /* Preview Assets.xcassets */; };
+		64D94E682C959EFB0030CDEA /* FallEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D94E672C959EFB0030CDEA /* FallEmoji.swift */; };
+		64D94E6B2C959FD00030CDEA /* MotionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D94E6A2C959FD00030CDEA /* MotionService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		64D94E5B2C959E920030CDEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		64D94E5D2C959E940030CDEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64D94E602C959E940030CDEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64D94E672C959EFB0030CDEA /* FallEmoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallEmoji.swift; sourceTree = "<group>"; };
+		64D94E6A2C959FD00030CDEA /* MotionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		64D94E582C959E920030CDEA /* SwiftUIAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				64D94E692C959FC40030CDEA /* FallEmoji */,
 				64D94E592C959E920030CDEA /* SwiftUIAnimationApp.swift */,
 				64D94E5B2C959E920030CDEA /* ContentView.swift */,
 				64D94E5D2C959E940030CDEA /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				64D94E602C959E940030CDEA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64D94E692C959FC40030CDEA /* FallEmoji */ = {
+			isa = PBXGroup;
+			children = (
+				64D94E672C959EFB0030CDEA /* FallEmoji.swift */,
+				64D94E6A2C959FD00030CDEA /* MotionService.swift */,
+			);
+			path = FallEmoji;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				64D94E5C2C959E920030CDEA /* ContentView.swift in Sources */,
+				64D94E6B2C959FD00030CDEA /* MotionService.swift in Sources */,
 				64D94E5A2C959E920030CDEA /* SwiftUIAnimationApp.swift in Sources */,
+				64D94E682C959EFB0030CDEA /* FallEmoji.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
